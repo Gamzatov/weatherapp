@@ -4,7 +4,7 @@ import WeatherInfo from "../pages/WeatherInfo/WeatherInfo";
 
 const Home = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/weatherapp">
       <Switch>
         <Route exact path="/weather" component={WeatherPage} />
         <Route exact path="/weather/:city" component={WeatherInfo} />
