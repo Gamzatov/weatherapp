@@ -2,6 +2,7 @@
   "name": "weatherapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gamzatov.github.io/weatherapp/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
